@@ -1,0 +1,35 @@
+{
+  "name": "api_taller",
+  "version": "1.0.0",
+  "description": "Api de peliculas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juanjo-oso/API_TALLER.git"
+  },
+  "keywords": [
+    "Api",
+    "express"
+  ],
+  "author": "Juan José Osorio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juanjo-oso/API_TALLER/issues"
+  },
+  "homepage": "https://github.com/Juanjo-oso/API_TALLER#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "pdfkit": "^0.15.0"
+  }
+}
